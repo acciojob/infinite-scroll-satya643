@@ -1,5 +1,4 @@
-//your code here!
-const list = document.getElementById("infinite-list");
+const list = document.getElementById("infi-list");
 
 let itemCount = 0;
 
@@ -22,4 +21,3 @@ list.addEventListener("scroll", () => {
     addItems(2); // add 2 more items
   }
 });
-
